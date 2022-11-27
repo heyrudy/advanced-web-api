@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+/spring-boot-migrator.jar
+/.rewrite-cache/000005.log
+/.rewrite-cache/CURRENT
+/.rewrite-cache/IDENTITY
+/.rewrite-cache/LOCK
+/.rewrite-cache/LOG
+/.rewrite-cache/MANIFEST-000004
+/.rewrite-cache/OPTIONS-000007
+/.gitignore
+/spring-boot-migrator.log
