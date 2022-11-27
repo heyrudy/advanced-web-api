@@ -1,0 +1,18 @@
+#############################
+#     STORAGE CONFIG
+#############################
+spring:
+  datasource:
+    url: jdbc:h2:C:/Users/kkoumagna/mock-storage
+    username: sa
+    password: sa
+#############################
+#     MIGRATION CONFIG
+#############################
+  liquibase:
+    enabled: false
+    change-log: classpath:db/changelog/db-changelog.xml
+    url: jdbc:h2:C:/Users/kkoumagna/mock-storage
+    username: sa
+    password: sa
+    drop-first: true
